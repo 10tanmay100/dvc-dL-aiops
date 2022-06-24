@@ -27,7 +27,7 @@ def get_data(config_path):
 
     for source_download_dir,local_data_dir in tqdm(zip(source_download_dirs,local_data_dirs),total=2,desc="List of folders"):
         create_directory([local_data_dir])
-        copy_file()
+        copy_file(source_download_dir,local_data_dir)
 
 
 
