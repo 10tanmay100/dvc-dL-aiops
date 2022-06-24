@@ -1,0 +1,11 @@
+pandas 
+numpy 
+matplotlib
+seaborn
+tensorflow
+tqdm
+pyYAML
+boto3
+dvc
+
+
